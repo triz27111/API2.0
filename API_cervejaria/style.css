@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E0A434; 
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+p {
+    font-size: 1.5em;
+    margin: 20px 0;
+  font-family: "Bigshot One", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.button {
+    text-decoration: none;
+    background-color: #fff;
+    color: #E0A434;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: "Bigshot One", serif;
+    font-weight: 400;
+    font-style: normal;
+
+      
+}
+
+.button:hover {
+    background-color: #EEEAE0;
+    color: white;
+}
