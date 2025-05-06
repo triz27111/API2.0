@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fdf7eb;
+    text-align: center;
+}
+
+.header {
+    background-color: #e7a530;
+    height: 50px;
+    width: 100%;
+}
+
+.logo-container {
+    margin-top: 50px;
+}
+
+.logo-container img {
+    width: 200px;
+}
+
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.search-box a {
+    background-color: #e7a530;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: -40px;
+}
+.button {
+    background-color: #f4e5d8;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#states {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centraliza os cards */
+    gap: 20px; /* espaço entre os cards */
+    padding: 20px;
+}
+
+.cardCidade {
+    background-color: #d89527;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-family: Arial, sans-serif;
+}
+.cardCidade p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.cardCidade h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
